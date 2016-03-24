@@ -6,7 +6,7 @@ I am always passionate about the applications of Machine learning on art. <br />
 It is a project in progress with no pre-known destination. I will show my work in small folders, each treats a sub-problem.
 <br />
 
-## [Van_Gogh and Dali](../VanGogh_Dali)
+## [Van_Gogh and Dali](/VanGogh_Dali)
 After reading [this paper](http://cs229.stanford.edu/proj2010/BlessingWen-UsingMachineLearningForIdentificationOfArtPaintings.pdf), 
 I decided to start by writing an algorithm in Python to identify the paintings of Van Gogh and those of Dali. 
 Using the HOG features suggested by the paper, a 98.77% accuracy can be achieved with ~700 training example. This fits well the 
