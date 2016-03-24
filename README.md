@@ -18,6 +18,7 @@ results presented in the paper. <br />
 - Features: Histogram of Oriented Gradients (HOG)
 - Features selection: LinearSVC-based
 - [best accuracy](../VanGogh_Dali/plots/best_result_HOG.png): 98.77%
+**Note**: the file 'training_Dali_Van_pixel_grayscale.csv' used in learn_SVM_HOG.py shoud be created by runining preprocessing_helpers.py. I didn't include it because it's too big.
 <br />
 
 ### Future work:
