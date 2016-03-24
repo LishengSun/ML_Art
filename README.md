@@ -17,7 +17,7 @@ results presented in the paper. <br />
 - Classification algorithm: SVM (kernel=linear, C=1)
 - Features: Histogram of Oriented Gradients (HOG)
 - Features selection: LinearSVC-based
-- [best accuracy](../VanGogh_Dali/plots/best_result_HOG.png): 98.77%
+- [best accuracy](/VanGogh_Dali/plots/best_result_HOG.png): 98.77% <br />
 **Note**: the file 'training_Dali_Van_pixel_grayscale.csv' used in learn_SVM_HOG.py shoud be created by runining preprocessing_helpers.py. I didn't include it because it's too big.
 <br />
 
@@ -25,7 +25,7 @@ results presented in the paper. <br />
 To understand why HOG works so well in this problem, I consider to write a function to plot the selected-HOG features
 over the image, which will allow me to know what exactly the machine 'sees'.
 
-## [DaVinci and Botticelli](../DaVinci_Botticelli) (In progress and will update 'in real time')
+## [DaVinci and Botticelli](/DaVinci_Botticelli) (In progress and will update 'in real time')
 Encouraged by this amazing result with Van Gogh and Dali, I tried to identify Da Vinci's work from Botticelli's. 
 This time, the difficulties are: <br />
 - Being two great painters of the same period - the Renaissance, no big style distinction can be suspected easily. <br />
@@ -36,7 +36,7 @@ great intelligence. Translated into machine learning words, this will be an imba
 ### My first try: 
 
 - Training data: 28 images of Da Vinci's paintings and 98 of Botticelli's from wikipedia's list. 
-**Note**: I devided Da Vinci's paintings into 3 parts: those [generally accepted] (../DaVinci_Botticelli/data/DaVinci/certain) (28) as his work, those [might be] (../DaVinci_Botticelli/data/DaVinci/maybe) his work (6) 
+**Note**: I devided Da Vinci's paintings into 3 parts: those [generally accepted] (/DaVinci_Botticelli/data/DaVinci/certain) (28) as his work, those [might be] (/DaVinci_Botticelli/data/DaVinci/maybe) his work (6) 
 and those [copied] (../DaVinci_Botticelli/data/DaVinci/copy) (3) by others. For this first try, I used only the first part.
 - Features: color histogram (for instance, color is the only difference between the painters that I can find and 'translate' into calculatable
 features)
@@ -47,7 +47,7 @@ features)
 ##### Results and discussion: 
 
 - SVM gives random guess
-- DT and GNB can predict with different labels, but always suffering from [high bias](../DaVinci_Botticelli/plots/) even
+- DT and GNB can predict with different labels, but always suffering from [high bias](/DaVinci_Botticelli/plots/) even
 I increase feature numbers by reducing the regularization of the feature selection. This suggests me to use more different features, 
 for example, HOG, SIFT, ...
 
