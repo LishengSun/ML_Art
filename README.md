@@ -37,7 +37,7 @@ great intelligence. Translated into machine learning words, this will be an imba
 
 - Training data: 28 images of Da Vinci's paintings and 98 of Botticelli's from wikipedia's list. 
 **Note**: I devided Da Vinci's paintings into 3 parts: those [generally accepted] (/DaVinci_Botticelli/data/DaVinci/certain) (28) as his work, those [might be] (/DaVinci_Botticelli/data/DaVinci/maybe) his work (6) 
-and those [copied] (../DaVinci_Botticelli/data/DaVinci/copy) (3) by others. For this first try, I used only the first part.
+and those [copied] (/DaVinci_Botticelli/data/DaVinci/copy) (3) by others. For this first try, I used only the first part.
 - Features: color histogram (for instance, color is the only difference between the painters that I can find and 'translate' into calculatable
 features)
 - Feature engineering: SMOTE (to balance the data) + LinearSVC based feature selection
